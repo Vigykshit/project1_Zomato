@@ -1,0 +1,230 @@
+body{
+    margin: auto;
+   background-color:  rgb(174, 39, 34);
+  
+}
+a{
+    text-decoration: none;
+}
+
+/* header section */
+
+header{
+    height: 60px;
+    /* border: 5px solid black; */
+    /* background-color: aqua; */
+   display: flex;
+}
+.zomato{
+    color: #fff;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 2%;
+   
+   
+}
+#search{
+     height: 30px;
+     width: 33%;
+    /* border: 2px solid rgb(159, 33, 33); */
+    margin-top: 1%; 
+    margin-left: 15%;
+   
+}
+.dropdown{
+   
+    float: left;
+    margin-left: 1%;
+    position: absolute;
+}
+select{
+    height:30px;
+    width:40%;
+    font-size:15px;
+    text-align: center; 
+}
+
+#restSelect{
+    width:59%;
+}
+.login{
+    height: 30px;
+    width: 15%;
+    /* border: 2px double rgb(0, 0, 0); */
+    float: left;
+    margin-top: 1%;
+    margin-left: 23%;
+  
+} 
+.sign{
+    height: 30px;
+    width: 35%;
+    font-size: large;
+    font-weight: bold;
+    background-color:rgb(174, 39, 34) ;
+    margin-left: 5%;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+/* best section */
+
+#best{
+    height: 300px;
+    /* border: 5px solid black; */
+    background-color: #171a29;
+
+}
+.town{
+    height: 250px;
+    width: 20%;
+    /* border: 2px solid black; */
+    border-radius: 10%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 4%;
+    display: flex;
+    justify-content: center;
+}
+.town1{
+    height: 100%;
+    width: 100%;
+}
+
+/* main section */
+
+#main{
+    /* height: 500px; */
+    width: 100%;
+    /* border: 5px solid black; */
+    /* background-image: url(zwigato1.jpg);
+    background-repeat: no-repeat;
+    background-size: 120% 500px; */
+    background-color: rgba(222, 179, 253, 0.838);
+    display: flex;  
+      
+}
+.break{
+    
+    width: 100%;
+    /* border: 5px solid red; */
+    /* float: left; */
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(174, 39, 34);
+    position:relative;
+}
+   
+.food1{
+    height:300px;
+    width:20%;
+    /* border: 3px solid rgb(4, 9, 4); */
+    border-radius: 3%;
+    float: left;
+    margin-left: 4%;
+    background-color: #171a29;
+    margin-bottom: 5% 
+}
+.click{
+    color:rgb(174, 39, 34);
+
+}
+.subclick{
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+.size{
+    height: 50%;
+}
+
+/* top brand section */
+
+.brand{
+    height: 300px;
+    width: 100%;
+    /* border: 3px solid black; */
+    position: flex;
+    background-color: rgba(222, 179, 253, 0.838); 
+}
+.you{
+    height: 200px;
+    width: 15%;
+    /* border: 2px solid black; */
+    margin-left:3.5% ;
+    float: left;
+   
+}
+.you >img{
+    height: 159px;
+    width: 100%;  
+}
+.bestbrand{
+   font-size: 40px;
+   margin-left: 4%;
+   font-weight: bold; 
+}
+.topbrand{
+    height: 200px;
+    float: left;
+    text-align: center;
+    border-radius: 50%;
+  /* overflow: hidden; */     
+}
+.brandname{
+    color: rgb(0, 0, 0);
+    line-height:2;
+    font-weight: bold;
+}
+
+/* footer section */
+
+footer{
+    height: 300px;
+    /* border: 5px solid black; */
+    background-color: rgb(174, 39, 34);
+}
+#naam{
+    font-size: 50px;
+    margin-left: 5%;
+    font-weight: bold;
+  
+
+
+}
+.aboutzomato{
+    height: 200px;
+    /* width: 90%; */
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin-left: 5%;
+    width:28%;
+    border-right: 2px solid rgb(174, 39, 34);
+    font-size: 30px;
+    color:black;
+   
+    
+}
+.noborder{
+    border:none;
+}
+.footing{
+    text-align: center;
+    font-size: large;
+    margin-top: 0%;
+}
+.foottext{
+    font-size: 20px;
+    color: gray;
+   
+}
+
+ul{
+    list-style-type: none;
+    
+}
+.footlink {
+    height: 30px;
+}

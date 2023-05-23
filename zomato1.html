@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link href="https://cdn.iconscout.com/icon/free/png-256/free-zomato-1937646-1637644.png" rel="icon">
+    <link href="zomato1.css" rel="stylesheet">
+    <script src="zomato.js"></script>
+</head>
+<body>
+    <header >
+        <div class="logo">
+            <a href="zwigato.html" target="blank">
+               <div class="zomato">
+                Zomato 
+            </div> 
+            </a>
+            </div>
+            <div id="search">
+                <div class="dropdown">
+                    <select id="city" onchange="getRest()">
+                        <option>---SELECT YOUR CITY---</option>
+                    </select>
+                    <select id="restSelect">
+                        <option>---SELECT YOUR RESTAURANTS---</option>
+                    </select>
+                </div>
+                </div>
+                <div class="login">
+                    <a href="" >
+                 <input type="submit" value="Sign in" class="sign">
+                 <input type="submit" value="Sign up" class="sign">
+                </a>
+                </div>
+
+            </div>
+        
+    </header>
+    <div class="taglisting">
+        <div class="rado" name ="Filter">
+            
+            <h2 class="filter">Filter</h2>
+            <hr/>
+            <h4>Cuisine </h4>
+            <input type="radio">All
+            <br/>
+            <input type="radio">North Indian
+            <br/>
+            <input type="radio">South Indian
+            <br/>
+            <input type="radio"> Food
+            <br/>
+            <input type="radio">Chinese
+            <br/>
+            <input type="radio">Desserts
+            <h4>Price</h4>
+            <hr/>
+            <input type="radio">All
+            <br/>
+            <input type="radio">101-200
+            <br/>
+            <input type="radio">201-300
+            <br/>
+            <input type="radio">301-400
+            <br/>
+            <input type="radio">401-500
+            <br/>
+            <input type="radio">501-600
+            
+        </div>
+        <div class="list">
+            <div class="restaurant">
+                <a href="">
+                    <figure class="restaurantid">
+                    <img src="https://b.zmtcdn.com/data/pictures/chains/4/121934/5cb3ab33bd30ce2e04dca0d55b45ec78_o2_featured_v2.jpg?output-format=webp" alt="food"class="restaurantid">
+                    <figcaption class="restcap">Katani Sweets & Dhaba</figcaption>
+                    </figure>
+                    <button class="rating">4.3</button>
+                </br>
+                    <p>North indian, Chinese, soup</p>
+                    <p class="side"> 300 for one</p>
+                   <hr/>
+                   <h5>1440+ orders placed from here recently</h5>
+                </a>
+            </div>
+            <div class="restaurant">
+                <a href="">
+                    <figure class="restaurantid">
+                    <img src="https://b.zmtcdn.com/data/pictures/chains/5/122275/1edc341a1cb0b7bd57c812b93e6ce333_o2_featured_v2.jpg?output-format=webp" alt="food"class="restaurantid">
+                    <figcaption class="restcap">Burger King</figcaption>
+                    </figure>
+                    <button class="rating">4.2</button>
+                </br>
+                    <p>Burger,Fast Food,Beverages</p>
+                    <p class="side"> 300 for one</p>
+                   <hr/>
+                   <h5>6425+ orders placed from here recently</h5>
+                </a>
+            </div>
+            <div class="restaurant">
+                <a href="">
+                    <figure class="restaurantid">
+                    <img src="https://b.zmtcdn.com/data/pictures/8/120158/aafeae25ec0bd10b7524b342fb4151b2_o2_featured_v2.jpg?output-format=webp" alt="food"class="restaurantid">
+                    <figcaption class="restcap">KFC</figcaption>
+                    </figure>
+                    <button class="rating">4.2</button>
+                </br>
+                    <p>Fast Food,Wraps,Burger</p>
+                    <p class="side"> 250 for one</p>
+                   <hr/>
+                   <h5>Follows all Max Safety measures to ensure your food is safe</h5>
+                </a>
+            </div>
+            <div class="restaurant">
+                <a href="">
+                    <figure class="restaurantid">
+                    <img src="https://b.zmtcdn.com/data/pictures/chains/8/120228/54b6de34323395a3b10897e48bd2a6e5_o2_featured_v2.jpg?output-format=webp" alt="food"class="restaurantid">
+                    <figcaption class="restcap">La Pino'z Pizza</figcaption>
+                    </figure>
+                    <button class="rating">4.0</button>
+                </br>
+                    <p>Pizza,Italian,Pasta</p>
+                    <p class="side"> 200 for one</p>
+                   <hr/>
+                   <h5>10250+ orders placed from here recently</h5>
+                </a>
+            </div>
+            <div class="restaurant">
+                <a href="">
+                    <figure class="restaurantid">
+                    <img src="https://b.zmtcdn.com/data/pictures/1/19357491/058da1435d8ca7c26e3121be34ca9d1b_o2_featured_v2.jpg?output-format=webp" alt="food"class="restaurantid">
+                    <figcaption class="restcap">Wah Ji Wah</figcaption>
+                    </figure>
+                    <button class="rating">4.1</button>
+                </br>
+                    <p>Chinese,North Indian</p>
+                    <p class="side"> 400 for one</p>
+                   <hr/>
+                   <h5>8050+ orders placed from here recently</h5>
+                </a>
+            </div>
+            <div class="restaurant">
+                <a href="">
+                    <figure class="restaurantid">
+                    <img src="https://b.zmtcdn.com/data/pictures/chains/7/121597/d6b02e47623e387c20754b3c7e7d6ee3_o2_featured_v2.jpg" alt="food"class="restaurantid">
+                    <figcaption class="restcap">Brar Buffet & Fast Food</figcaption>
+                    </figure>
+                    <button class="rating">3.9</button>
+                </br>
+                    <p>,Momos,CHinese,Non-veg</p>
+                    <p class="side"> 100 for one</p>
+                   <hr/>
+                   <h5>850+ orders placed from here recently</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer id="about">
+        
+        <p class="footing">&copy; VAZomato 2023</p>
+       
+    <div id="naam">
+        Zomato
+    </div>
+    <div class="aboutzomato">
+        About Zomato
+        <a href="" class="foottext">
+    <ul>
+        <li>Who we are</li>
+        <li>Blog</li>
+        <li>Work with us</li>
+        <li>Report fraud</li>
+        <li>Contact us</li>
+    </ul>
+    </a>
+    </div>
+    <div class="aboutzomato">
+        Learn More
+        <a href="" class="foottext" >
+    <ul>
+        <li>Privacy</li>
+        <li>Security</li>
+        <li>Term</li>
+        <li>Sitemap</li>
+        <li>Feeding india</li>
+    </ul>
+    </a>
+    </div>
+    <div class="aboutzomato">
+       Social Links
+       <ul>
+    <div class="footlink">
+        <a href="">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/640px-Facebook_icon.svg.png" alt="facebook" class="footlink"></li>
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="instagram" class="footlink"></li>
+       <img src="https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc" alt="youtube" class="footlink"></li>
+      <li> <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="apple store" class="footlink"></li>
+      <li> <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="android store" class="footlink"></li>
+       </a>
+    </div>
+   </ul>
+    </div>
+</footer>
+<script> 
+    window.onload = getCity();
+</script>
+</body>
+</html>
